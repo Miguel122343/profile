@@ -30,7 +30,56 @@ function App() {
             {degree: 'Bachillerato', institution: 'U.E. Antonio Sandoval', startDate: 'Jun 2019', description: 'Certificado de Promoción de Bachiller de la República Bolivariana de Venezuela.' }
         ],
         certificate: [
-            {image: './la-guia-completa.png', name: 'React - La Guía Completa: Hooks Context Redux MERN + 15 app', instructor: 'Juan Pablo De La Torre Valdez', date: 'Agosto 25/2021', hours: '44.5'}
+            {
+                image: 'la-guia-completa.png',
+                name: 'React - La Guía Completa: Hooks Context Redux MERN + 15 app',
+                instructor: 'Juan Pablo De La Torre Valdez'
+            },
+            {
+                image: 'api-rest-con-laravel-5-y-tokens-con-eloquent-api-resource-y-passport.png',
+                name: 'API Rest con Laravel 5, Resource y Passport',
+                instructor: 'Israel Parra'
+            },
+            {
+                image: 'certificado-conceptos-de-arquitectura-en-laravel-como-funciona.png',
+                name: 'Conceptos de arquitectura en laravel ¿cómo funciona?',
+                instructor: 'Israel Parra'
+            },
+            {
+                image: 'certificado-curso-de-laravel-8-y-vue-3-con-vuex-4-vue-router-utilizando-composition-api.png',
+                name: 'Curso de Laravel 8 y Vue 3 con Vuex 4 + Vue Router, utilizando Composition API',
+                instructor: 'Israel Parra'
+            },
+            {
+                image: 'certificado-curso-de-laravel-9.png',
+                name: 'Curso de Laravel 9',
+                instructor: 'Israel Parra'
+            },
+            {
+                image: 'curso-de-desarrollo-movil-con-vuejs-2-y-quasar-app-offline-con-localstorage.png',
+                name: 'Desarrollo móvil con Vuejs 2 y quasar',
+                instructor: 'Israel Parra'
+            },
+            {
+                image: 'curso-de-vuejs-2-vuex-con-typescript.png',
+                name: 'Curso de Vuejs 2, Vuex con TypeScript',
+                instructor: 'Israel Parra'
+            },
+            {
+                image: 'laravel-8-y-vue-3-con-vuex-4-vue-router-utilizando-composition-api.png',
+                name: 'Curso de Laravel 8 y Vue 3 con Vuex 4 + Vue Router, utilizando Composition API',
+                instructor: 'Israel Parra',
+            },
+            {
+                image: 'primeros-pasos-con-vue-3-y-vuex-4.png',
+                name: 'Primeros pasos con Vue 3 y Vuex 4',
+                instructor: 'Israel Parra'
+            },
+            {
+                image: 'vuejs-2-y-vuex-desde-0-con-las-mejores-practicas.png',
+                name: 'Vuejs 2 y Vuex desde 0 con las mejores prácticas',
+                instructor: 'Israel Parra'
+            }
         ],
         skills: [
             {name: 'HTML5', percentage: '90'},
@@ -42,7 +91,6 @@ function App() {
             {name: 'Bootstrap 4.5', percentage: '90'},
             {name: 'Bootstrap 5', percentage: '70'},
             {name: 'Tailwind', percentage: '40'},
-
         ]
     };
     return (

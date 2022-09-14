@@ -8,17 +8,14 @@ function Certificate(props) {
         <Carousel>
             {props.certificate.map((cert) =>
                 <Carousel.Item key={cert.key}>
-                    <Carousel.Caption>
-                        <h3> { cert.name } </h3>
-                    </Carousel.Caption>
                     <img
                         className="d-block w-100"
                         src={cert.image}
                         alt={cert.name}
                     />
                     <Carousel.Caption>
-                        <p className="m-0">Instructor: { cert.instructor } </p>
-                        <p>Fecha: { cert.date } - { cert.hours } Horas </p>
+                        <h3> { cert.name } </h3>
+                        <p>Instructor: { cert.instructor } </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             )}
